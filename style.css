@@ -1,0 +1,67 @@
+/* Reset e estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: rgb(137, 223, 239);
+    padding: 15px;
+}
+.container-login {
+    display: none;
+}
+
+.container-login,
+.login-form{
+    max-width: 750px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #eae9e9ef;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+input{
+    width: 100%;
+    height: 50px;
+    display: block;
+    max-width: 500px;
+    margin: 15px auto;
+    padding: 10px;
+}
+
+.container-login textarea{
+    width: 100%;
+    margin-top: 25px;
+    max-width: 500px;
+    height: 100px;
+    padding: 15px;
+    
+}
+
+input[type=submit]{
+    background-color: rgb(137, 223, 239);
+    color: rgb(9, 9, 9);
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.tarefas-usuario ul{
+    list-style-type: none;
+}
+
+.tarefas-usuario li{
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.tarefas-usuario li a{
+    color: red;
+    font-weight: bold;
+}

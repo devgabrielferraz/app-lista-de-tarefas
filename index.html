@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List App</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <div class="login-form">
+        <h2>Faça seu login:</h2>
+        <form id="loginForm">
+            <input type="email" name="email" placeholder="Email" required />
+            <input type="password" name="password" placeholder="Senha" required />
+            <input type="submit" value="Logar" />
+        </form>
+
+        <div class="container-acesso">
+            <h1>Credenciais para fazer o login no app:</h1>
+            <br>
+            <h2>Login: admin@email.com</h2>
+            <br>
+            <h2>Senha: 123456</h2>
+        </div>
+    </div><!--Login form-->
+
+   
+    
+    <div class="container-login">
+        <h2>Olá, você está logado no painel! <a class="logout" href="javascript:void(0);">Logout</a></h2>
+        <form class="form-cadastro-tarefa">
+            <textarea name="tarefa" placeholder="Digite aqui a sua tarefa..." required></textarea>
+            <input type="datetime-local" name="datetime" required />
+            <input type="submit" name="acao" value="Cadastrar tarefa" />
+        </form><!--Cadastro de tarefas-->
+        <div class="tarefas-usuario">
+            <h3>Listagem de tarefas:</h3>
+            <ul id="tarefas">
+
+            </ul>
+        </div>
+    </div><!--container-login-->
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
